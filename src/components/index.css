@@ -1,0 +1,27 @@
+h1{
+    color:blue;
+}
+
+.buttons{
+    display: grid;
+    grid: 15px / auto auto auto;   
+    align-items: center;    
+    justify-content: center ;
+    grid-gap:20px ;
+}
+
+
+p{
+    font-size: larger   ;
+}
+.button:hover{
+    color: red;
+
+
+}
+.button{
+    
+  color: #fff;
+  background-image: -webkit-linear-gradient(30deg, #0041b2 50%, transparent 50%);
+  background-size: 500px;
+}   
